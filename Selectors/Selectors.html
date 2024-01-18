@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        getElementsByTagName
+    </title>
+</head>
+<body style="text-align: left">
+    <h2>Selectors:</h2>
+    <p id="para1">GET ELEMENT BY ID</p> 
+    <span class="para2">GET ELEMENTS BY CLASS NAME</span> 
+    <h6>GET ELEMENTS BY TAG NAME</h6>
+    Id: <input name="id" type="checkbox" value="Id">
+    Class: <input name="class" type="checkbox" value="Class">
+    Tag Name: <input name="tagname" type="checkbox" value="Tagname">
+    Name: <input name="name" type="checkbox" value="Name">
+    <button onclick="changeFormat()">Try it!</button> 
+  
+    <script>
+        function changeFormat() {
+            var idBgColor = document.getElementById("para1");
+            idBgColor.style.backgroundColor = "lightblue";
+
+            var classBgColor = document.getElementsByClassName("para2");
+            for (let i = 0; i < classBgColor.length; i++) {
+                classBgColor[i].style.backgroundColor = "grey";
+            }
+
+            var tagBgColor = document.getElementsByTagName("h6");
+            for (let i = 0; i < tagBgColor.length; i++) {
+                tagBgColor[i].style.backgroundColor = "green";
+            }
+
+            var nameCheckBox = document.getElementsByName("name");
+            for (let i = 0; i < nameCheckBox.length; i++) {
+                if (nameCheckBox[i].type == "checkbox") {
+                    nameCheckBox[i].checked = true;
+                }
+            }
+        }
+    </script> 
+</body>
+</html>
