@@ -1,0 +1,334 @@
+2023-08-12 13:42:46.850 +05:30 [INF] User profile is available. Using 'C:\Users\Suriya Prakash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-12 13:42:47.677 +05:30 [INF] Now listening on: https://localhost:7285
+2023-08-12 13:42:47.678 +05:30 [INF] Now listening on: http://localhost:5264
+2023-08-12 13:42:47.696 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-12 13:42:47.702 +05:30 [INF] Hosting environment: Development
+2023-08-12 13:42:47.702 +05:30 [INF] Content root path: C:\Users\Suriya Prakash\Desktop\ASPIRE\QuizAPI\
+2023-08-12 13:43:33.800 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/ - -
+2023-08-12 13:43:34.632 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/ - - - 307 0 - 803.3358ms
+2023-08-12 13:43:36.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - -
+2023-08-12 13:43:36.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - - - 404 0 - 578.7061ms
+2023-08-12 13:43:46.825 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - -
+2023-08-12 13:43:46.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - - - 404 0 - 3.5065ms
+2023-08-12 13:43:57.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - -
+2023-08-12 13:43:57.228 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - - - 404 0 - 24.6717ms
+2023-08-12 13:44:10.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger - -
+2023-08-12 13:44:10.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger - - - 301 0 - 18.3444ms
+2023-08-12 13:44:10.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - -
+2023-08-12 13:44:11.696 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - - - 200 - text/html;charset=utf-8 855.5519ms
+2023-08-12 13:44:12.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - -
+2023-08-12 13:44:12.192 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - -
+2023-08-12 13:44:12.303 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - -
+2023-08-12 13:44:12.447 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-12 13:44:12.447 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-12 13:44:12.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - - - 200 143632 text/css 377.6018ms
+2023-08-12 13:44:12.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 147.8059ms
+2023-08-12 13:44:12.877 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-12 13:44:12.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 685.5339ms
+2023-08-12 13:44:14.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - -
+2023-08-12 13:44:14.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/favicon-32x32.png - -
+2023-08-12 13:44:14.796 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-12 13:44:14.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/favicon-32x32.png - - - 200 628 image/png 1.2794ms
+2023-08-12 13:44:15.197 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 401.9202ms
+2023-08-12 13:44:32.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/WeatherForecast - -
+2023-08-12 13:44:32.957 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.WeatherForecastController.Get (QuizAPI)'
+2023-08-12 13:44:33.122 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[QuizAPI.WeatherForecast] Get() on controller QuizAPI.Controllers.WeatherForecastController (QuizAPI).
+2023-08-12 13:44:33.191 +05:30 [INF] Executing ObjectResult, writing value of type 'QuizAPI.WeatherForecast[]'.
+2023-08-12 13:44:33.391 +05:30 [INF] Executed action QuizAPI.Controllers.WeatherForecastController.Get (QuizAPI) in 245.6194ms
+2023-08-12 13:44:33.395 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.WeatherForecastController.Get (QuizAPI)'
+2023-08-12 13:44:33.395 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/WeatherForecast - - - 200 - application/json;+charset=utf-8 461.8112ms
+2024-01-17 22:23:42.977 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 22:23:43.064 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-17 22:23:43.080 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-17 22:23:43.081 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-17 22:23:43.084 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 22:23:43.084 +05:30 [INF] Hosting environment: Development
+2024-01-17 22:23:43.084 +05:30 [INF] Content root path: C:\Users\suriya.thurai\Downloads\QuizAPI
+2024-01-17 22:23:43.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger - null null
+2024-01-17 22:23:43.652 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger - 301 0 null 35.8817ms
+2024-01-17 22:23:43.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - null null
+2024-01-17 22:23:43.811 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - 200 null text/html;charset=utf-8 144.3804ms
+2024-01-17 22:23:43.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - null null
+2024-01-17 22:23:43.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - null null
+2024-01-17 22:23:43.834 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-17 22:23:43.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 22:23:43.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 27.1516ms
+2024-01-17 22:23:43.902 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-17 22:23:43.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 68.5317ms
+2024-01-17 22:23:43.903 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-17 22:23:43.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - 200 144929 text/css 69.7779ms
+2024-01-17 22:23:43.921 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-17 22:23:43.921 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 87.2794ms
+2024-01-17 22:23:44.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - null null
+2024-01-17 22:23:44.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/favicon-32x32.png - null null
+2024-01-17 22:23:44.217 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-17 22:23:44.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/favicon-32x32.png - 200 628 image/png 0.4894ms
+2024-01-17 22:23:44.306 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.9314ms
+2024-01-17 22:24:06.366 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/LoginUser - application/json 47
+2024-01-17 22:24:06.392 +05:30 [INF] CORS policy execution failed.
+2024-01-17 22:24:06.392 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-17 22:24:06.426 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-17 22:24:06.451 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(QuizAPI.Models.Login) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-17 22:24:23.200 +05:30 [ERR] An error occurred using the connection to database 'QuizDB' on server 'DESKTOP-8NLBSH6'.
+2024-01-17 22:24:23.264 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'QuizAPI.Database.UserDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2024-01-17 22:24:23.275 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Login (QuizAPI) in 16815.2624ms
+2024-01-17 22:24:23.276 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-17 22:24:23.308 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method8(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at QuizAPI.Controllers.UserController.Login(Login user) in C:\Users\suriya.thurai\Downloads\QuizAPI\Controllers\UserController.cs:line 52
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2024-01-17 22:24:23.326 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 500 null text/plain; charset=utf-8 16960.2472ms
+2024-01-17 22:25:01.744 +05:30 [INF] Application is shutting down...
+2024-01-17 22:36:02.072 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-01-17 22:36:02.098 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-01-17 22:36:02.101 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-01-17 22:36:02.170 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-01-17 22:36:02.172 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-01-17 22:36:02.174 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-01-17 22:36:02.184 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-01-17 22:36:02.198 +05:30 [INF] Applying migration '20240117170352_Initial'.
+2024-01-17 22:36:02.226 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Scoreboards] (
+    [Name] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [MobileNo] nvarchar(max) NULL,
+    [AttendedQuiz] nvarchar(max) NULL,
+    [Score] nvarchar(max) NULL,
+    [MaximumScore] nvarchar(max) NULL
+);
+2024-01-17 22:36:02.230 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NULL,
+    [LastName] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [Mobile] nvarchar(max) NULL,
+    [Gender] nvarchar(max) NULL,
+    [Password] nvarchar(max) NULL,
+    [MemberSince] datetime2 NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserId])
+);
+2024-01-17 22:36:02.234 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240117170352_Initial', N'8.0.1');
+2024-01-17 22:42:04.663 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 22:42:04.746 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-17 22:42:04.770 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-17 22:42:04.771 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-17 22:42:04.774 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 22:42:04.774 +05:30 [INF] Hosting environment: Development
+2024-01-17 22:42:04.774 +05:30 [INF] Content root path: C:\Users\suriya.thurai\Downloads\QuizAPI
+2024-01-17 22:42:05.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger - null null
+2024-01-17 22:42:05.122 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger - 301 0 null 31.7646ms
+2024-01-17 22:42:05.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - null null
+2024-01-17 22:42:05.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - null null
+2024-01-17 22:42:05.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - 200 null text/html;charset=utf-8 117.2129ms
+2024-01-17 22:42:05.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-17 22:42:05.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - null null
+2024-01-17 22:42:05.254 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 22:42:05.263 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 8.8118ms
+2024-01-17 22:42:05.287 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-17 22:42:05.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - 200 144929 text/css 39.4504ms
+2024-01-17 22:42:05.291 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-17 22:42:05.291 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 41.499ms
+2024-01-17 22:42:05.308 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-17 22:42:05.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 58.1863ms
+2024-01-17 22:42:05.573 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - null null
+2024-01-17 22:42:05.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.9725ms
+2024-01-17 22:42:36.631 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/LoginUser - application/json 56
+2024-01-17 22:42:36.648 +05:30 [INF] CORS policy execution failed.
+2024-01-17 22:42:36.648 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-17 22:42:36.688 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-17 22:42:36.728 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(QuizAPI.Models.Login) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-17 22:42:38.179 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__user_Email_0='?' (Size = 4000), @__user_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0 AND [u].[Password] = @__user_Password_1
+2024-01-17 22:42:38.339 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-17 22:42:38.345 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Login (QuizAPI) in 1611.2951ms
+2024-01-17 22:42:38.345 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-17 22:42:38.357 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 200 null text/plain; charset=utf-8 1726.1402ms
+2024-01-18 05:25:29.418 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 05:25:29.487 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-18 05:25:29.504 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-18 05:25:29.505 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-18 05:25:29.507 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 05:25:29.507 +05:30 [INF] Hosting environment: Development
+2024-01-18 05:25:29.507 +05:30 [INF] Content root path: C:\Users\suriya.thurai\Downloads\QuizAPI
+2024-01-18 05:25:33.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-18 05:25:33.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 82.5701ms
+2024-01-18 05:25:33.514 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-18 05:25:38.653 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-18 05:25:38.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 4.4867ms
+2024-01-18 05:25:38.658 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-18 05:25:47.486 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/ - null null
+2024-01-18 05:25:47.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/ - 307 0 null 4.0409ms
+2024-01-18 05:25:47.502 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-18 05:25:47.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 1.613ms
+2024-01-18 05:25:47.504 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-18 05:25:52.880 +05:30 [INF] Application is shutting down...
+2024-01-18 05:26:07.893 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 05:26:07.990 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-18 05:26:08.151 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-18 05:26:08.151 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-18 05:26:08.154 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 05:26:08.154 +05:30 [INF] Hosting environment: Development
+2024-01-18 05:26:08.154 +05:30 [INF] Content root path: C:\Users\suriya.thurai\Downloads\QuizAPI
+2024-01-18 05:26:09.059 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger - null null
+2024-01-18 05:26:09.101 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger - 301 0 null 46.795ms
+2024-01-18 05:26:09.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - null null
+2024-01-18 05:26:09.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - 200 null text/html;charset=utf-8 99.5664ms
+2024-01-18 05:26:09.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - null null
+2024-01-18 05:26:09.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - null null
+2024-01-18 05:26:09.365 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-18 05:26:09.366 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-18 05:26:09.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 11.3057ms
+2024-01-18 05:26:09.386 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-18 05:26:09.386 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-18 05:26:09.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - 200 144929 text/css 26.918ms
+2024-01-18 05:26:09.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 21.9922ms
+2024-01-18 05:26:09.409 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-18 05:26:09.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 44.1221ms
+2024-01-18 05:26:09.598 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - null null
+2024-01-18 05:26:09.712 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.2109ms
+2024-01-18 05:26:48.273 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/LoginUser - application/json 56
+2024-01-18 05:26:48.293 +05:30 [INF] CORS policy execution failed.
+2024-01-18 05:26:48.293 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-18 05:26:48.327 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-18 05:26:48.353 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(QuizAPI.Models.Login) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-18 05:26:50.037 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[@__user_Email_0='?' (Size = 4000), @__user_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0 AND [u].[Password] = @__user_Password_1
+2024-01-18 05:26:50.195 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-18 05:26:50.200 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Login (QuizAPI) in 1842.6581ms
+2024-01-18 05:26:50.201 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-18 05:26:50.209 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 200 null text/plain; charset=utf-8 1936.3291ms
+2024-01-18 05:31:58.453 +05:30 [INF] Application is shutting down...
