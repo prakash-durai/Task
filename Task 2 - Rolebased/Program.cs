@@ -8,7 +8,9 @@ builder.Services.AddAuthentication(option =>{
     option.DefaultAuthenticateScheme= CookieAuthenticationDefaults.AuthenticationScheme;
     option.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     option.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-}).AddCookie();
+}).AddCookie(options=>{
+    options.AccessDeniedPath ="/Account/AccessDenied";
+});
 
 builder.Services.AddAuthorization(option =>{
     option.AddPolicy("Admin",policy => policy.RequireRole("Admin"));

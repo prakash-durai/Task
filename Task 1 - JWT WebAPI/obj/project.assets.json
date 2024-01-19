@@ -5015,11 +5015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suriya.thurai\\Downloads\\QuizAPI\\QuizAPI.csproj",
+      "projectUniqueName": "D:\\Tasks\\Task 1 - JWT WebAPI\\QuizAPI.csproj",
       "projectName": "QuizAPI",
-      "projectPath": "C:\\Users\\suriya.thurai\\Downloads\\QuizAPI\\QuizAPI.csproj",
+      "projectPath": "D:\\Tasks\\Task 1 - JWT WebAPI\\QuizAPI.csproj",
       "packagesPath": "C:\\Users\\suriya.thurai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suriya.thurai\\Downloads\\QuizAPI\\obj\\",
+      "outputPath": "D:\\Tasks\\Task 1 - JWT WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suriya.thurai\\AppData\\Roaming\\NuGet\\NuGet.Config"

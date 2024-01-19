@@ -332,3 +332,106 @@ WHERE [u].[Email] = @__user_Email_0 AND [u].[Password] = @__user_Password_1
 2024-01-18 05:26:50.201 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
 2024-01-18 05:26:50.209 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 200 null text/plain; charset=utf-8 1936.3291ms
 2024-01-18 05:31:58.453 +05:30 [INF] Application is shutting down...
+2024-01-19 10:37:45.628 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 10:37:45.735 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-19 10:37:45.760 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-19 10:37:45.760 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-19 10:37:45.764 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 10:37:45.764 +05:30 [INF] Hosting environment: Development
+2024-01-19 10:37:45.764 +05:30 [INF] Content root path: D:\Tasks\Task 1 - JWT WebAPI
+2024-01-19 11:41:53.431 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-19 11:41:53.597 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 166.1925ms
+2024-01-19 11:41:53.611 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-19 11:42:03.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/ - null null
+2024-01-19 11:42:03.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/ - 307 0 null 5.7114ms
+2024-01-19 11:42:03.990 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5264/ - null null
+2024-01-19 11:42:03.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5264/ - 307 0 null 5.6935ms
+2024-01-19 11:42:04.015 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-19 11:42:04.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 2.6243ms
+2024-01-19 11:42:04.018 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-19 11:42:04.020 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-01-19 11:42:04.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 7.6848ms
+2024-01-19 11:42:04.028 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-01-19 11:42:14.912 +05:30 [INF] Application is shutting down...
+2024-01-19 11:42:26.501 +05:30 [INF] User profile is available. Using 'C:\Users\suriya.thurai\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 11:42:26.597 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-01-19 11:42:26.642 +05:30 [INF] Now listening on: https://localhost:7285
+2024-01-19 11:42:26.643 +05:30 [INF] Now listening on: http://localhost:5264
+2024-01-19 11:42:26.648 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 11:42:26.648 +05:30 [INF] Hosting environment: Development
+2024-01-19 11:42:26.648 +05:30 [INF] Content root path: D:\Tasks\Task 1 - JWT WebAPI
+2024-01-19 11:42:27.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger - null null
+2024-01-19 11:42:27.352 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger - 301 0 null 74.266ms
+2024-01-19 11:42:27.417 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - null null
+2024-01-19 11:42:27.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - 200 null text/html;charset=utf-8 244.0699ms
+2024-01-19 11:42:27.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - null null
+2024-01-19 11:42:27.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - null null
+2024-01-19 11:42:27.702 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-19 11:42:27.702 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-19 11:42:27.737 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 34.6434ms
+2024-01-19 11:42:27.745 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-19 11:42:27.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - 200 144929 text/css 60.941ms
+2024-01-19 11:42:27.768 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-19 11:42:27.768 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 66.6108ms
+2024-01-19 11:42:27.790 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-19 11:42:27.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 89.5314ms
+2024-01-19 11:42:28.115 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - null null
+2024-01-19 11:42:28.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.7599ms
+2024-01-19 11:43:23.403 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/CreateUser - application/json 217
+2024-01-19 11:43:23.430 +05:30 [INF] CORS policy execution failed.
+2024-01-19 11:43:23.430 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-19 11:43:23.465 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Create (QuizAPI)'
+2024-01-19 11:43:23.491 +05:30 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(QuizAPI.Models.User) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-19 11:43:25.093 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2024-01-19 11:43:25.436 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [Gender], [LastName], [MemberSince], [Mobile], [Password])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-01-19 11:43:25.469 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-19 11:43:25.478 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Create (QuizAPI) in 1979.4398ms
+2024-01-19 11:43:25.479 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Create (QuizAPI)'
+2024-01-19 11:43:25.488 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/CreateUser - 200 null text/plain; charset=utf-8 2084.7042ms
+2024-01-19 11:43:41.445 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/CreateUser - application/json 223
+2024-01-19 11:43:41.449 +05:30 [INF] CORS policy execution failed.
+2024-01-19 11:43:41.450 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-19 11:43:41.451 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Create (QuizAPI)'
+2024-01-19 11:43:41.452 +05:30 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(QuizAPI.Models.User) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-19 11:43:41.480 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2024-01-19 11:43:41.489 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-19 11:43:41.490 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Create (QuizAPI) in 37.5211ms
+2024-01-19 11:43:41.490 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Create (QuizAPI)'
+2024-01-19 11:43:41.490 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/CreateUser - 200 null text/plain; charset=utf-8 45.1612ms
+2024-01-19 11:44:20.697 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/LoginUser - application/json 61
+2024-01-19 11:44:20.699 +05:30 [INF] CORS policy execution failed.
+2024-01-19 11:44:20.699 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-19 11:44:20.704 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-19 11:44:20.708 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(QuizAPI.Models.Login) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-19 11:44:20.833 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__user_Email_0='?' (Size = 4000), @__user_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0 AND [u].[Password] = @__user_Password_1
+2024-01-19 11:44:20.834 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-19 11:44:20.834 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Login (QuizAPI) in 125.9408ms
+2024-01-19 11:44:20.834 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-19 11:44:20.835 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 200 null text/plain; charset=utf-8 137.5498ms
+2024-01-19 11:45:15.239 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7285/api/User/LoginUser - application/json 56
+2024-01-19 11:45:15.239 +05:30 [INF] CORS policy execution failed.
+2024-01-19 11:45:15.239 +05:30 [INF] Request origin https://localhost:7285 does not have permission to access the resource.
+2024-01-19 11:45:15.239 +05:30 [INF] Executing endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-19 11:45:15.240 +05:30 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(QuizAPI.Models.Login) on controller QuizAPI.Controllers.UserController (QuizAPI).
+2024-01-19 11:45:15.249 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Email_0='?' (Size = 4000), @__user_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[Gender], [u].[LastName], [u].[MemberSince], [u].[Mobile], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__user_Email_0 AND [u].[Password] = @__user_Password_1
+2024-01-19 11:45:15.282 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-19 11:45:15.283 +05:30 [INF] Executed action QuizAPI.Controllers.UserController.Login (QuizAPI) in 42.7948ms
+2024-01-19 11:45:15.283 +05:30 [INF] Executed endpoint 'QuizAPI.Controllers.UserController.Login (QuizAPI)'
+2024-01-19 11:45:15.283 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7285/api/User/LoginUser - 200 null text/plain; charset=utf-8 44.3331ms

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OVyhq0FLXJCWL27ZD0ahZ6j1WwK8ezQ0M+tzqzJKHW9IMIWWEEDEanMt6lr3iC8f2jMshqAZnlEVBQnJ30VXTw==",
+  "dgSpecHash": "9j+ysNEQrAeI00RGMn19BaBRNxsdbQ1SMhEBqIiMb2ByuRStc9kB7q0FSjMLf9dkUn0Bq5qgxEbyEEyZX8V7QA==",
   "success": true,
-  "projectFilePath": "D:\\Tasks\\EfCoreInheritance\\EfCoreInheritance.csproj",
+  "projectFilePath": "D:\\Tasks\\Task 3 - EfCoreInheritance\\EfCoreInheritance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suriya.thurai\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\suriya.thurai\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

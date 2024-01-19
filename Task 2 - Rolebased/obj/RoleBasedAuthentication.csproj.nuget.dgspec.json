@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tasks\\Rolebased\\RoleBasedAuthentication.csproj": {}
+    "D:\\Tasks\\Task 2 - Rolebased\\RoleBasedAuthentication.csproj": {}
   },
   "projects": {
-    "D:\\Tasks\\Rolebased\\RoleBasedAuthentication.csproj": {
+    "D:\\Tasks\\Task 2 - Rolebased\\RoleBasedAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tasks\\Rolebased\\RoleBasedAuthentication.csproj",
+        "projectUniqueName": "D:\\Tasks\\Task 2 - Rolebased\\RoleBasedAuthentication.csproj",
         "projectName": "RoleBasedAuthentication",
-        "projectPath": "D:\\Tasks\\Rolebased\\RoleBasedAuthentication.csproj",
+        "projectPath": "D:\\Tasks\\Task 2 - Rolebased\\RoleBasedAuthentication.csproj",
         "packagesPath": "C:\\Users\\suriya.thurai\\.nuget\\packages\\",
-        "outputPath": "D:\\Tasks\\Rolebased\\obj\\",
+        "outputPath": "D:\\Tasks\\Task 2 - Rolebased\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suriya.thurai\\AppData\\Roaming\\NuGet\\NuGet.Config"

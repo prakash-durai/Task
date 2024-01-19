@@ -10,7 +10,6 @@ namespace EfCoreInheritance
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configuring Table-Per-Hierarchy
         modelBuilder.Entity<EmployeeModel>().HasKey(e => e.EmployeeId);
         modelBuilder.Entity<Manager>().HasBaseType<EmployeeModel>();
         modelBuilder.Entity<RegularEmployee>().HasBaseType<EmployeeModel>();
